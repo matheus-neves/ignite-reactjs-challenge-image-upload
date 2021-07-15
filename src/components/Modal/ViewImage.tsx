@@ -22,7 +22,7 @@ export function ModalViewImage({
   imgUrl,
 }: ModalViewImageProps): JSX.Element {
   return (
-    <Modal onClose={onClose} isOpen={isOpen}>
+    <Modal onClose={onClose} isCentered isOpen={isOpen}>
       <ModalOverlay />
       <ModalContent maxWidth="900px" maxHeight="600px">
         <ModalCloseButton />
